@@ -8,13 +8,13 @@ A tool for creating XLOR files from NIntendo's binary font formats
 __xlorify.exe infile outfile xlorname__
 
 #### Why is it so Sharp?
-I called it XLORify-Sharp because I had coded a similar program in Python from pieces of code of BRFNTify-Next by RoadrunnerWMC. It didn't work that well and because I was working on another program for font editing at the time, written in C#, I decidec to use some of it's codebase to create a smaller tool.
+I called it XLORify-Sharp because I had coded a similar program in Python from pieces of code of BRFNTify-Next by RoadrunnerWMC. It didn't work that well and because I was working on another program for font editing at the time, written in C#, I decided to use some of it's codebase to create a smaller tool.
 
 #### HOW TO ACTUALLY USE IT TO RIP\EDIT FONTS:
 ##### REQUIREMENTS:
 * __-Font files(brfnt\bcfnt\bffnt) (obviously!)__
 * __-XLORify-Sharp (again, obviously!)__
-* __-Font Converter(will be refered to as FontCvtr from now on)(from NintendoWare of specific platform you want to edit a font for), RVL and early version CTR can be used with GUI, while others newer will have to be operated though CLI__
+* __-Font Converter(will be refered to as FontCvtr from now on)(from NintendoWare of specific platform you want to edit a font for), RVL and early version CTR can be used with GUI, while any newer versions will have to be operated though CLI__
 * __-Image editor(I use Photoshop)__
 * __-Patience__
 ##### INSTRUCTIONS:
@@ -26,5 +26,5 @@ I called it XLORify-Sharp because I had coded a similar program in Python from p
 * __6) Profit!!!__
 
 Footnote on the version of FontCvtr you're supposed to use:
-This applies only to CTR, but if your font is bffnt you should use the newer version, if it's the older bcfnt then you should utilize ver1.2 of FontCvtr(source of which you can find on GItHub btw(the gui won't compile, only the dll and cli, but that should be enough to do the thing anyway)).
+This applies only to CTR, but if your font is bffnt you should use the newer version, if it's the older bcfnt then you should utilize ver1.2 of FontCvtr(source of which you can find on GitHub(the gui won't compile, only the dll and cli, but that should be enough to do the thing anyway)).
 P.S. You have to use the same version of FontCvtr for BOTH encoding AND decoding binary fonts
